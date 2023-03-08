@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    padding: 1rem;
+    background-color: #F96800;
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    color: white;
+}
+ul{
+    list-style: none;
+}
+header ul{
+    display: flex;
+    gap: 1em;
+}
+header ul li a{
+    color: white;
+    text-decoration: none;
+}
+header img{
+    max-height: 1.5rem;
+}
+main{
+    max-width: 60%;
+    display: flex;
+    padding-top: 5rem;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+.article-img{
+    position: relative;
+    max-width: 100%;
+   
+}
+.article-img .first-img{
+    max-width: 100%;
+    position: relative;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.article-img .second-img{  
+    max-width: 100%;
+    
+ 
+}
+.article-img .first-img:hover{
+    opacity: 0%;
+    max-width: 100%;
+
+}
+.article-img .flag{
+    font-size: 0.5rem;
+    position: absolute;
+    bottom: 2rem;
+    left: 0;
+    
+}
+.article-img .flag .flag-r{
+    background-color: red;
+}
+.article-img .flag .flag-g{
+    background-color: green;
+    margin-left: 0.5em;
+}
+.like{
+    color: white;
+    background-color: black;
+    font-size: 1rem;
+    padding: 0.4em 0.4em 0.2em 0.4em ;
+    position: absolute;
+    top: 2rem;
+    right: 0;
+}
+.like:hover{
+
+}
+.article{
+    max-width: 10rem;
+    display: flex;
+    flex-direction: column;
+
+
+}
